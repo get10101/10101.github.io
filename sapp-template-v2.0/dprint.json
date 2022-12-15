@@ -1,0 +1,16 @@
+{
+  "$schema": "https://dprint.dev/schemas/v0.json",
+  "projectType": "openSource",
+  "incremental": true,
+  "includes": ["**/*.{md,json,yml,yaml,toml}"],
+  "excludes": [
+    "**/target",
+    "**/dist",
+    "**/build"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/json-0.7.2.wasm",
+    "https://plugins.dprint.dev/prettier-0.11.0.json@385edfc0e1212b3be6412cda49322ecd62cb38ac71b9b463869bebf23a4767e3",
+    "https://plugins.dprint.dev/toml-0.5.4.wasm"
+  ]
+}
