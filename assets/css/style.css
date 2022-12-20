@@ -638,6 +638,10 @@ img {
   background: var(--primary-bg-color-2);
 }
 
+.btn-gray {
+  background: gray;
+}
+
 /*SOCIAL ICONS*/
 .social-icons svg {
   display: block;
