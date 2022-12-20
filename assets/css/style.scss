@@ -102,7 +102,8 @@
     --social-color-2: #55acee;
     --social-color-3: #dd4b39;
     --social-color-4: #00b489;
-    
+    --social-color-5: black;
+
     --white-color: #ffffff;
 
     --primary-t-color: #222;
@@ -655,8 +656,14 @@ img {
         &.facebook {
             background-color: var(--social-color-1) !important;
         }
+        &.telegram {
+            background-color: var(--social-color-1) !important;
+        }
         &.twitter {
             background-color: var(--social-color-2) !important;
+        }
+        &.github {
+            background-color: var(--social-color-5) !important;
         }
         
         &.google-plus {
