@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://get10101.finance/*"
+to = "https://10101.finance"
+status = 301
+force = true
