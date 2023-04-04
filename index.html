@@ -183,7 +183,7 @@
        * using 'navigator.sendBeacon' in browser that support it.
        */
       var captureOutboundLink = function (url) {
-        ga("send", "event", "outbound", "click", url, {
+        gtag("send", "event", "outbound", "click", url, {
           transport: "beacon",
           hitCallback: function () {
             document.location = url;
@@ -605,7 +605,7 @@
                     target="_blank"
                     class="btn btn-lg"
                     style="width: 300px"
-                    onclick="captureOutboundLink('https://notionforms.io/forms/10101-beta-signup/'); return false;"
+                    onclick="captureOutboundLink('https://notionforms.io/forms/10101-beta-signup/'); return true;"
                     >I want self-custodial trading!</a
                   >
                 </div>
@@ -616,7 +616,7 @@
                     target="_blank"
                     class="btn btn-lg btn-gray"
                     style="width: 300px"
-                    onclick="captureOutboundLink('https://notionforms.io/forms/10101-beta-signup-1'); return false;"
+                    onclick="captureOutboundLink('https://notionforms.io/forms/10101-beta-signup-1'); return true;"
                     >I just want a lightning wallet!</a
                   >
                 </div>
