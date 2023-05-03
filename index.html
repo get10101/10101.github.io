@@ -620,22 +620,18 @@
 
       <!-- ***** Newsletter Area Start ***** -->
       <section
-        id="subscribe-form"
+        id="subscribe-form-section"
         class="section welcome-area inner-area bg-overlay h-100vh overflow-hidden"
       >
         <div class="container h-100">
           <div class="row align-items-center justify-content-center h-100">
             <div class="col-12 col-md-8">
               <div class="welcome-intro text-center">
-                <form
-                  name="subscribe"
-                  method="POST"
-                  netlify
-                  action="/thank-you.html"
-                >
-                  <h1 class="text-white">Subscribe to get eary access!</h1>
+                <form id="subscribe-form" name="subscribe">
+                  <h1 class="text-white">Get Eary Access!</h1>
                   <p class="text-white my-4">
-                    By signing up as a beta tester you help us shaping 10101!
+                    Subscribe now to become a beta tester and get early access.
+                    By signing up you help us shaping 10101!
                   </p>
                   <div class="subscribe-form d-flex align-items-center mx-auto">
                     <input
@@ -644,7 +640,7 @@
                       placeholder="Enter your Email"
                       name="email"
                     />
-                    <button type="submit" class="btn btn-bordered" target="_blank">
+                    <button type="submit" class="btn btn-bordered">
                       Subscribe
                     </button>
                   </div>
@@ -655,6 +651,68 @@
         </div>
       </section>
       <!-- ***** Subscribe Area End ***** -->
+      <!-- ***** Thank You Area Start ***** -->
+      <section
+        id="thank-you-section"
+        class="section welcome-area inner-area bg-overlay h-100vh overflow-hidden"
+        style="display: none"
+      >
+        <div class="container h-100">
+          <div class="row align-items-center justify-content-center h-100">
+            <div class="col-12 col-md-8">
+              <div class="welcome-intro text-center">
+                <h1 class="text-white">Thank you for signing up</h1>
+                <p class="text-white my-4">
+                  If you have a few more minutes, we would apprecaite you
+                  filling out a short survey.
+                </p>
+                <!-- <a href="index.html" class="btn sApp-btn text-uppercase">Go to Homepage</a> -->
+
+                <a
+                  href="https://9hxmx82rnq8.typeform.com/to/JWccHLEH/"
+                  target="_blank"
+                  class="btn sApp-btn text-uppercase"
+                  style="width: 300px"
+                  id="i-want-trade-action-bottom"
+                  onclick="captureOutboundLink('https://9hxmx82rnq8.typeform.com/to/JWccHLEH/'); return true;"
+                  >Happy to help with a short survey!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script type="text/javascript">
+        function toggleFormAndItem() {
+          console.log("got here: ");
+          var form = document.getElementById("subscribe-form-section");
+          var item = document.getElementById("thank-you-section");
+
+          form.style.display = "none";
+          item.style.display = "block";
+        }
+
+        const handleFormSubmit = async (event) => {
+          const myForm = event.target;
+          const formData = new FormData(myForm);
+
+          await fetch("/", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+              "Access-Control-Allow-Origin": "*", // Allow from anywhere
+            },
+            body: new URLSearchParams(formData).toString(),
+          });
+          console.log("Form successfully submitted");
+          toggleFormAndItem();
+        };
+
+        document
+          .querySelector("form")
+          .addEventListener("submit", handleFormSubmit);
+      </script>
 
       <!--====== Height Emulator Area Start ======-->
       <div class="height-emulator d-none d-lg-block"></div>
