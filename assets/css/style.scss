@@ -678,7 +678,8 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center / cover;
+    // background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) no-repeat scroll center center / cover;
 }
 
 .homepage-3 .welcome-area {
@@ -727,7 +728,8 @@ img {
 }
 
 .inner-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center / cover;
+    // background: rgba(0, 0, 0, 0) url("../img/bg/welcome-bg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) no-repeat scroll center center / cover;
 }
 
 .download-page .welcome-area {
@@ -735,7 +737,8 @@ img {
 }
 
 .inner .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/inner-bg.jpg") no-repeat scroll center center / cover;
+    // background: rgba(0, 0, 0, 0) url("../img/bg/inner-bg.jpg") no-repeat scroll center center / cover;
+    background: rgba(0, 0, 0, 0) no-repeat scroll center center / cover;
     height: 100vh;
 }
 

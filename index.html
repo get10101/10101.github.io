@@ -275,7 +275,8 @@
                     class="nav-link"
                     href="https://10101.substack.com/"
                     target="_blank"
-                  >Blog</a>
+                    >Blog</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a
@@ -324,15 +325,10 @@
               <div class="welcome-intro">
                 <h1>10101<br />Decentralised finance. For real.</h1>
                 <p class="my-4">
-                  We enable BTC trading without counterparty risk with one easy and fast app.
+                  We enable BTC trading without counterparty risk with one easy
+                  and fast app.
                 </p>
-                <a
-                  href="https://9hxmx82rnq8.typeform.com/to/JWccHLEH/"
-                  target="_blank"
-                  class="btn"
-                  id="i-want-trade-action-top"
-                  >I want to try it!</a
-                >
+                <a href="#subscribe-form" class="btn">I want to try it!</a>
               </div>
             </div>
             <div class="col-12 col-md-5">
@@ -363,7 +359,8 @@
               <div class="section-heading text-center">
                 <h2>Awesome Features</h2>
                 <p class="d-none d-sm-block mt-4">
-                    10101 (<i>"Ten-Ten-One"</i>) - is all about Bitcoin and Bitcoin only. It is a
+                  10101 (<i>"Ten-Ten-One"</i>) - is all about Bitcoin and
+                  Bitcoin only. It is a
                   <b>self-custodial</b> on-chain and off-chain wallet infused
                   with trading to unleash true trustless decentralized finance.
                 </p>
@@ -617,30 +614,37 @@
       </section>
       <!-- ***** Discover Area End ***** -->
 
-      <!-- ***** Subscribe Area Start ***** -->
-      <section id="contact" class="section subscribe-area ptb_100">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-10 col-lg-8">
-              <div class="subscribe-content text-center">
-                <h2>Be one of the first to try!</h2>
-                <p class="my-4">
-                  By signing up as a beta tester you can help us getting 10101
-                  to the market faster and ensure that we build features you
-                  really want!
-                </p>
-
-                <div class="col-md-12 text-center">
-                  <a
-                    href="https://9hxmx82rnq8.typeform.com/to/JWccHLEH/"
-                    target="_blank"
-                    class="btn btn-lg"
-                    style="width: 300px"
-                    id="i-want-trade-action-bottom"
-                    onclick="captureOutboundLink('https://9hxmx82rnq8.typeform.com/to/JWccHLEH/'); return true;"
-                    >I want self-custodial trading!</a
-                  >
-                </div>
+      <!-- ***** Newsletter Area Start ***** -->
+      <section
+        id="subscribe-form"
+        class="section welcome-area inner-area bg-overlay h-100vh overflow-hidden"
+      >
+        <div class="container h-100">
+          <div class="row align-items-center justify-content-center h-100">
+            <div class="col-12 col-md-8">
+              <div class="welcome-intro text-center">
+                <form
+                  name="subscribe"
+                  method="POST"
+                  netlify
+                  action="/thank-you.html"
+                >
+                  <h1 class="text-white">Subscribe to get eary access!</h1>
+                  <p class="text-white my-4">
+                    By signing up as a beta tester you help us shaping 10101!
+                  </p>
+                  <div class="subscribe-form d-flex align-items-center mx-auto">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter your Email"
+                      name="email"
+                    />
+                    <button type="submit" class="btn btn-bordered" target="_blank">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
