@@ -414,18 +414,22 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-                <!-- Icon Box -->
-                <div class="icon-box text-center p-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
-                    <!-- Featured Icon -->
-                    <div class="featured-icon mb-3">
-                        <i class="material-icons md-72">insights</i>
-                    </div>
-                    <!-- Icon Text -->
-                    <div class="icon-text">
-                        <h3 class="mb-2">Trade</h3>
-                        <p>Powered by DLCs, trade without counterparty risk.</p>
-                    </div>
+              <!-- Icon Box -->
+              <div
+                class="icon-box text-center p-4 wow fadeInUp"
+                data-wow-duration="2s"
+                data-wow-delay="0.4s"
+              >
+                <!-- Featured Icon -->
+                <div class="featured-icon mb-3">
+                  <i class="material-icons md-72">insights</i>
                 </div>
+                <!-- Icon Text -->
+                <div class="icon-text">
+                  <h3 class="mb-2">Trade</h3>
+                  <p>Powered by DLCs, trade without counterparty risk.</p>
+                </div>
+              </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
               <!-- Icon Box -->
@@ -628,11 +632,13 @@
                   method="POST"
                   netlify
                   action="/thank-you.html"
+                  netlify-honeypot="bot-field"
                 >
                   <h1 class="text-white">Subscribe to get eary access!</h1>
                   <p class="text-white my-4">
                     By signing up as a beta tester you help us shaping 10101!
                   </p>
+
                   <div class="subscribe-form d-flex align-items-center mx-auto">
                     <input
                       type="email"
@@ -640,10 +646,20 @@
                       placeholder="Enter your Email"
                       name="email"
                     />
-                    <button type="submit" class="btn btn-bordered" target="_blank">
+                    <button
+                      type="submit"
+                      class="btn btn-bordered"
+                      target="_blank"
+                    >
                       Subscribe
                     </button>
                   </div>
+                  <p style="visibility: hidden">
+                    <label>
+                      Don’t fill this out if you’re human:
+                      <input name="bot-field" />
+                    </label>
+                  </p>
                 </form>
               </div>
             </div>
