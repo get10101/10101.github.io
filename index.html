@@ -206,6 +206,12 @@
         });
       };
     </script>
+    <script>
+      function showSignupForm() {
+        document.getElementById("signup-form").style.display = "block";
+        document.getElementById("signup-button").style.display = "none";
+      }
+    </script>
   </head>
 
   <body class="homepage-2">
@@ -635,34 +641,44 @@
                   netlify-honeypot="bot-field"
                   data-netlify-recaptcha="true"
                 >
-                  <h1 class="text-white">Subscribe to get eary access!</h1>
-                  <p class="text-white my-4">
-                    By signing up as a beta tester you help us shaping 10101!
-                  </p>
+                  <div id="signup-form" style="display: none">
+                    <h1 class="text-white">Join Waitlist!</h1>
+                    <p class="text-white my-4">
+                      By signing up as a beta tester you help us shaping 10101!
+                    </p>
 
-                  <div class="subscribe-form d-flex align-items-center mx-auto">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Enter your Email"
-                      name="email"
-                    />
-                    <button
-                      type="submit"
-                      class="btn btn-bordered"
-                      target="_blank"
+                    <div
+                      class="subscribe-form d-flex align-items-center mx-auto"
                     >
-                      Subscribe
-                    </button>
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Enter your Email"
+                        name="email"
+                      />
+                      <button
+                        type="submit"
+                        class="btn btn-bordered"
+                        target="_blank"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                    <p style="visibility: hidden">
+                      <label>
+                        Don’t fill this out if you’re human:
+                        <input name="bot-field" />
+                      </label>
+                    </p>
+                    <div data-netlify-recaptcha="true"></div>
                   </div>
-                  <p style="visibility: hidden">
-                    <label>
-                      Don’t fill this out if you’re human:
-                      <input name="bot-field" />
-                    </label>
-                  </p>
-                  <div data-netlify-recaptcha="true"></div>
                 </form>
+                <div id="signup-button">
+                  <h1 class="text-white">Join Waitlist!</h1>
+                  <button onclick="showSignupForm()" class="btn btn-lg">
+                    Click me!
+                  </button>
+                </div>
               </div>
             </div>
           </div>
