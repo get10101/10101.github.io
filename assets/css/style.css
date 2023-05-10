@@ -1504,6 +1504,18 @@ img {
 }
 
 /* ******************************
+:: 11.5 DISCOVER AREA CSS
+****************************** */
+.blog-area .list-box .icon {
+  color: var(--primary-color-2);
+}
+@media (max-width: 575px) {
+  .blog-area .discover-thumb {
+    max-width: 300px;
+  }
+}
+
+/* ******************************
 :: 12.0 DISCOVER AREA CSS
 ****************************** */
 .discover-area .list-box .icon {
