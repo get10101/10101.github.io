@@ -689,48 +689,48 @@ img {
 }
 
 .homepage-3 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/blog/blog-5.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/blog/blog-5.jpg") no-repeat scroll center center/cover;
 }
 
 .homepage-4 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/blog/blog-7.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/blog/blog-7.jpg") no-repeat scroll center center/cover;
 }
 
 .homepage-5 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/blog/blog-4.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/blog/blog-4.jpg") no-repeat scroll center center/cover;
 }
 
 .homepage-6 .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/blog/blog-9.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/blog/blog-9.jpg") no-repeat scroll center center/cover;
 }
 
 .accounts .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/accounts.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/accounts.jpg") no-repeat scroll center center/cover;
   height: 100vh;
 }
 
 .features-slider-wrapper {
-  background: rgba(0, 0, 0, 0) url("../img/mobile-slider.png") no-repeat scroll top center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/mobile-slider.png") no-repeat scroll top center/cover;
 }
 
 .statistic-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/pattern-bg.png") repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/pattern-bg.png") repeat scroll center center/cover;
 }
 
 .download-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/download-bg.jpg") no-repeat fixed center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/download-bg.jpg") no-repeat fixed center center/cover;
 }
 
 .subscribe-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/map.png") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/map.png") no-repeat scroll center center/cover;
 }
 
 .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/download-bg.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/download-bg.jpg") no-repeat scroll center center/cover;
 }
 
 .blog .breadcrumb-area {
-  background: rgba(0, 0, 0, 0) url("../img/blog/blog-5.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/blog/blog-5.jpg") no-repeat scroll center center/cover;
 }
 
 .inner-area {
@@ -738,7 +738,7 @@ img {
 }
 
 .download-page .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/bg/download.jpg") no-repeat scroll center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/bg/download.jpg") no-repeat scroll center center/cover;
 }
 
 .inner .welcome-area {
@@ -747,7 +747,7 @@ img {
 }
 
 .preview .welcome-area {
-  background: rgba(0, 0, 0, 0) url("../img/preview/preview-mockup.png") no-repeat fixed center center/cover;
+  background: rgba(0, 0, 0, 0) url("static/img/preview/preview-mockup.png") no-repeat fixed center center/cover;
 }
 
 /* ******************************
