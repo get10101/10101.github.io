@@ -81,6 +81,11 @@ const config = {
             href: 'https://github.com/get10101/10101',
             position: 'right',
           },
+          {
+            html: 'Sign up for the beta!',
+            href: 'https://9hxmx82rnq8.typeform.com/to/UiZyrhSC',
+            position: 'left',
+          },
         ],
       },
       footer: {
