@@ -19,8 +19,7 @@ Did not sign up for the beta program yet?
 
 [Sign up here](https://10101.finance/)
 
-**When do you care about self-custodial trading?**
---------------------------------------------------
+## **When do you care about self-custodial trading?**
 
 When you start using 10101, the self-custodial nature becomes immediately obvious because you have to back up your wallet seed. This is because 10101 is a Bitcoin on-chain and a Lightning wallet that enables you to trade. The wallet backup procedure resembles other Lightning wallets out there - the 10101 wallet backup flow is inspired by the great work of [bitcoin.design](https://bitcoin.design/guide/daily-spending-wallet/backup-and-recovery/landing-page/).
 
@@ -44,7 +43,7 @@ You are in charge of hitting the "panic button" in case you have to get your fun
 
 The 10101 team believes that self-custody will only be adopted if the user experience is _at least as good_ as on existing exchanges today. We are convinced that the 10101 experience can outperform the experience on centralized exchanges. Self-custodial trading allows overcoming signup friction while maintaining a higher level of self-sovereignty and security. You stay in control of your Bitcoin at all times - in a fast and easy to use app.
 
-* * *
+---
 
 In our next blogpost we will start exploring the details of the self-custodial trading setup in 10101 and how it protects you.
 
@@ -52,9 +51,9 @@ The 10101 app is currently available to selected beta users on iOS Testflight. A
 
 [Join the beta progam](https://medium.com/crypto-garage/dlc-on-lightning-cb5d191f6e64)
 
-Happy stacking,   
+Happy stacking,  
 The 10101 team
 
-* * *
+---
 
 P.S. At 10101 we don't stop at trading, but it is the first building block we are working on. This foundational work will enable other product - as you have probably seen in [our tweets](https://twitter.com/get10101/status/1620921775616933891?s=20) we are exploring solutions beyond trading, such as synthetic stable coins.

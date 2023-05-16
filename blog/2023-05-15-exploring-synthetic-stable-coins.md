@@ -49,7 +49,6 @@ In this mechanism, users who wish to hold a synthetic stablecoin take a short po
 
 The chart below illustrates how this function looks like. In the given example it shows how much BTC each party may receive depending on the USD price of BTC.
 
-
 ![](https://substack-post-media.s3.amazonaws.com/public/images/063036c0-0b44-4438-a6fe-1534c5a3f4b3_1029x636.png)
 
 Perpetual Inverse Future Payout Function
@@ -68,13 +67,11 @@ As the price appreciates the person going short gets less BTC back but remains s
 
 3.  Bob takes the other side of the trade, and also has to put up 1 BTC (≜ $30,000).
 
-
 **Assuming the price appreciates to $60,000:**
 
 1.  Alice still holds $30,000 (≜ 0.5 BTC) => $30,000/$60,000 = 0.5 BTC.
 
 2.  Bob holds 1.5 BTC (≜ $90,000).
-
 
 **Assuming the price depreciates to $15,000:**
 
@@ -82,13 +79,11 @@ As the price appreciates the person going short gets less BTC back but remains s
 
 2.  Bob holds 0 BTC (≜ $0).
 
-
 **Assuming the price appreciates to $1,000,000:**
 
 1.  Alice still holds $30,000 (≜ 0.03 BTC) => $30,000/$1,000,000 = 0.03 BTC.
 
 2.  Bob holds 1.97 BTC (≜ $970,000).
-
 
 **⚠️ Assuming the price falls below $15,000:**
 
@@ -96,7 +91,7 @@ If the price drops below $15,000 in this example, the short position's value wil
 
 Differently said, the long position gets liquidated at $15,000 and loses everything.
 
-* * *
+---
 
 Want early access to the 10101 app and see synthetic stablecoins without counterparty risk in action?
 
@@ -105,12 +100,12 @@ Want early access to the 10101 app and see synthetic stablecoins without counter
 Happy stacking,   
 The 10101 team
 
-* * *
+---
 
 ### References
 
-*   https://thebitcoinmanual.com/articles/what-are-synthetic-stablecoins-on-the-lightning-network/
+- https://thebitcoinmanual.com/articles/what-are-synthetic-stablecoins-on-the-lightning-network/
 
-*   https://threadreaderapp.com/thread/1496507594214723590.html
+- https://threadreaderapp.com/thread/1496507594214723590.html
 
-*   https://stephanlivera.com/episode/346/
+- https://stephanlivera.com/episode/346/

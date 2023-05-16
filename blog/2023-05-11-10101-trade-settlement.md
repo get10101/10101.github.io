@@ -19,7 +19,6 @@ When you trade in 10101 there are three phases:
 
 <!-- truncate -->
 
-
 In 10101 we use [DLCs (discreet log contracts)](https://bitcoinops.org/en/topics/discreet-log-contracts/) which are smart contracts on Bitcoin. In a nutshell these smart contracts are a set of rules and messages that are used to set up spending conditions of locked up funds of two trading parties in different scenarios.
 
 In 10101 you trade over the Lightning network and the smart contract is represented as a DLC that extends your Lightning channel. When a trade is executed a DLC is set up with your trading partner on top of a Lightning channel.
@@ -30,9 +29,7 @@ Once set up there are two scenarios of spending the locked up funds and closing 
 
 2.  **Non-collaborative settlement**: Either you or your trading partner decide that a collaborative settlement is not possible and trigger an on-chain settlement.
 
-
 As long as your trading partner is responsive you will agree on the Lightning balances in the channel and update them, resulting in instant settlement. In most cases you will reach agreement, because there is no incentive to trigger a non-collaborative settlement which is more expensive. While more expensive, the non-collaborative settlement enables either party to have a way out in a worst case scenario.
-
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/1089a1cd-0193-4a3a-b347-ab692ce7c252_1300x1497.png)
 
@@ -46,7 +43,7 @@ Even in a worst of all worst case scenarios - your trading partner is gone and t
 
 Nobody can stop you from pressing the panic button, and nothing can stop the protocol execution on chain once it is triggered. Your funds will end up in your wallet one or the other way - it's just a matter of waiting for certain timelocks to expire.
 
-* * *
+---
 
 Want early access to the 10101 app and see self-custodial trading in action?
 
@@ -55,9 +52,9 @@ Want early access to the 10101 app and see self-custodial trading in action?
 Great thanks to [Thibaut Le Guilly](https://medium.com/@leguilly.thibaut?source=post_page-----cb5d191f6e64--------------------------------) from Crypto Garage and his work on [rust-dlc](https://github.com/p2pderivatives/rust-dlc). We are very happy to collaborate on bringing DLCs to LDK’s [rust-lightning](https://github.com/lightningdevkit/rust-lightning) together ❤️  
 For a deep dive into the protocol details check out [Thibaut’s excellent post](https://medium.com/crypto-garage/dlc-on-lightning-cb5d191f6e64)!
 
-Happy stacking,   
+Happy stacking,  
 The 10101 team
 
-* * *
+---
 
 P.S. The oracle is a third party that is trusted to attest the correct price. This raises questions how this trust can justify a DLC setup. Using multiple, independent and well-known oracles is just one way to crate a setup resilient to attacks. Which oracles to use can be configured when matching the trading parties during the discovery phase. Oracles are a big topic that we will explore in depth in another blogpost!

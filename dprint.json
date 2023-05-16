@@ -2,11 +2,13 @@
   "$schema": "https://dprint.dev/schemas/v0.json",
   "projectType": "openSource",
   "incremental": true,
-  "includes": ["**/*.{md,json,yml,yaml,toml,html}"],
+  "includes": ["**/*.{md,json,yml,yaml,toml,html,js,css}"],
   "excludes": [
     "**/target",
     "**/dist",
-    "**/build"
+    "**/build",
+    "**/.docusaurus",
+    "**/node_modules"
   ],
   "plugins": [
     "https://plugins.dprint.dev/json-0.7.2.wasm",
