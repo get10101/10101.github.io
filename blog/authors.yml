@@ -1,17 +1,26 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+# You can define a title for yourself using the `title` field
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+daniel:
+  name: Daniel Karzel
+  url: https://github.com/da-kami/
+  image_url: https://github.com/da-kami.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+lucas:
+  name:  Lucas Soriano del Pino
+  url: https://github.com/luckysori/
+  image_url: https://github.com/luckysori.png
+
+mariusz:
+  name: Mariusz Klochowicz
+  url: https://github.com/klochowicz/
+  image_url: https://github.com/klochowicz.png
+
+philipp:
+  name: Philipp Hoenisch
+  url: https://github.com/bonomat/
+  image_url: https://github.com/bonomat.png
+
+richard:
+  name: Richard Holzeis
+  url: https://github.com/holzeis/
+  image_url: https://github.com/holzeis.png
