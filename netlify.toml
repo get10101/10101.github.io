@@ -8,3 +8,10 @@ from = "https://www.get10101.finance/*"
 to = "https://10101.finance"
 status = 301
 force = true
+
+[build.environment]
+NODE_VERSION = "18"
+
+[build]
+command = "npm run build"
+publish = "build"
