@@ -1,0 +1,26 @@
+# You can define a title for yourself using the `title` field
+
+daniel:
+  name: Daniel Karzel
+  url: https://github.com/da-kami/
+  image_url: https://github.com/da-kami.png
+
+lucas:
+  name: Lucas Soriano del Pino
+  url: https://github.com/luckysori/
+  image_url: https://github.com/luckysori.png
+
+mariusz:
+  name: Mariusz Klochowicz
+  url: https://github.com/klochowicz/
+  image_url: https://github.com/klochowicz.png
+
+philipp:
+  name: Philipp Hoenisch
+  url: https://github.com/bonomat/
+  image_url: https://github.com/bonomat.png
+
+richard:
+  name: Richard Holzeis
+  url: https://github.com/holzeis/
+  image_url: https://github.com/holzeis.png
