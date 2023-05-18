@@ -796,7 +796,11 @@
                 >
                   <!-- Copyright Left -->
                   <div class="copyright-left">
-                    &copy; Copyrights 2020 10101 All rights reserved.
+                    &copy; Copyrights
+                    <script>
+                      document.write(/\d{4}/.exec(Date())[0]);
+                    </script>
+                    10101 All rights reserved.
                   </div>
                   <!-- Copyright Right -->
                   <div class="copyright-right">
