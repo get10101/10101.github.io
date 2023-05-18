@@ -42,7 +42,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "github.com/get10101/10101.github.io",
+          editUrl: "https://github.com/get10101/10101.github.io",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
