@@ -55,6 +55,13 @@ const config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: "https://app.viral-loops.com/widgetsV2/core/loader.js",
+      async: true,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -85,8 +92,13 @@ const config = {
             position: "right",
           },
           {
-            html: "Sign up for the beta!",
-            href: "https://9hxmx82rnq8.typeform.com/to/UiZyrhSC",
+            type: "html",
+            value:
+              "<form-widget\n" +
+              '                  mode="popup"\n' +
+              '                  ucid="fYdNFh2lxfjzyTLHzY9gsiOs7K0"\n' +
+              '                  id="i-want-trade-action-bottom"\n' +
+              "                ></form-widget>",
             position: "left",
           },
         ],
