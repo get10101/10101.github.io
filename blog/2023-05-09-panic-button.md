@@ -49,7 +49,7 @@ In our next blogpost we will start exploring the details of the self-custodial t
 
 The 10101 app is currently available to selected beta users on iOS Testflight. Android coming soon. Be one of the first to try the app! Join the revolution of self-custodial finance:
 
-[Join the beta progam](https://medium.com/crypto-garage/dlc-on-lightning-cb5d191f6e64)
+<form-widget mode="popup" ucid="fYdNFh2lxfjzyTLHzY9gsiOs7K0" id="i-want-trade-action-bottom"></form-widget>
 
 Happy stacking,  
 The 10101 team

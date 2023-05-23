@@ -47,7 +47,7 @@ Nobody can stop you from pressing the panic button, and nothing can stop the pro
 
 Want early access to the 10101 app and see self-custodial trading in action?
 
-[Sign up for the beta program](https://9hxmx82rnq8.typeform.com/to/UiZyrhSC)
+<form-widget mode="popup" ucid="fYdNFh2lxfjzyTLHzY9gsiOs7K0" id="i-want-trade-action-bottom"></form-widget>
 
 Great thanks to [Thibaut Le Guilly](https://medium.com/@leguilly.thibaut?source=post_page-----cb5d191f6e64--------------------------------) from Crypto Garage and his work on [rust-dlc](https://github.com/p2pderivatives/rust-dlc). We are very happy to collaborate on bringing DLCs to LDK’s [rust-lightning](https://github.com/lightningdevkit/rust-lightning) together ❤️  
 For a deep dive into the protocol details check out [Thibaut’s excellent post](https://medium.com/crypto-garage/dlc-on-lightning-cb5d191f6e64)!

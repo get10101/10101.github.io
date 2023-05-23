@@ -95,7 +95,7 @@ Differently said, the long position gets liquidated at $15,000 and loses everyth
 
 Want early access to the 10101 app and see synthetic stablecoins without counterparty risk in action?
 
-[Sign up for the beta program](https://9hxmx82rnq8.typeform.com/to/UiZyrhSC)
+<form-widget mode="popup" ucid="fYdNFh2lxfjzyTLHzY9gsiOs7K0" id="i-want-trade-action-bottom"></form-widget>
 
 Happy stacking,   
 The 10101 team
