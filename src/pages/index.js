@@ -2,8 +2,7 @@ import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 function HomePage() {
-  let frontpage =
-    useBaseUrl("/frontpage/index.html");
+  let frontpage = useBaseUrl("/frontpage/index.html");
 
   React.useEffect(() => {
     let params = document.location.search;
