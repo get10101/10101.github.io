@@ -5,10 +5,6 @@ authors: [daniel]
 tags: [self-custodial, trading, knowledge-base]
 ---
 
-<head>
-  <meta name="og:image" content="10101_app_empowerment.png" />
-</head>
-
 In a [previous blogpost](./../2023-05-11-10101-trade-settlement.md) we talked about self-custodial settlement paths in 10101.
 In this blogpost we explore how the 10101 app will enable you to stay self-sovereign in your self-custodial trade setup.
 
