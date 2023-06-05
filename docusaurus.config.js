@@ -32,6 +32,9 @@ const config = {
     locales: ["en"],
   },
 
+    title: 'My site',
+  staticDirectories: ['static'],
+
   presets: [
     [
       "classic",
