@@ -32,8 +32,8 @@ const config = {
     locales: ["en"],
   },
 
-    title: '10101 Blog',
-  staticDirectories: ['static'],
+  title: "10101 Blog",
+  staticDirectories: ["static"],
 
   presets: [
     [
