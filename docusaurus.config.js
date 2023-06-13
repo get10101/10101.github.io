@@ -32,7 +32,7 @@ const config = {
     locales: ["en"],
   },
 
-    title: 'My site',
+    title: '10101 Blog',
   staticDirectories: ['static'],
 
   presets: [
