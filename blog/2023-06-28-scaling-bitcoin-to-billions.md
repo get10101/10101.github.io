@@ -11,7 +11,7 @@ The recent mempool situation reminded us all about the scarcity of blocksize.
 The mempool is full, transaction fees are soaring, which makes small on-chain transaction not viable anymore.
 This is a problem as we can't scale Bitcoin to billions of users.
 
-![](/2023-06-06-scaling-btc/2023-06-06-future-city.png)
+![](/2023-06-28-scaling-btc/2023-06-28-future-city.png)
 
 <!-- truncate -->
 
