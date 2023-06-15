@@ -45,8 +45,8 @@ The following diagram illustrates the transaction structure of a lightning chann
 
 An adaptor signature is a signature that has been encrypted with a secret, and for which we can prove that after decryption (or with knowledge of the secret) we obtained a valid signature for a given message.
 
-For a DLC we use the oracles signature as secret to encrypt the counterparties signatures to unlock a certain Contract Execution Transaction (CET).
-These signatures are created as adopter signatures using the oracles announcements that it will attest to an event outcome in the future.
+For a DLC we use the oracle's signature as a secret to encrypt the counterparty's signature which unlocks a certain Contract Execution Transaction (CET).
+These signatures are created as adaptor signatures using the oracle's announcement that it will attest to an event outcome in the future.
 Using this publically available information both parties generate all possible signature points that could be released by the oracle and use them to encrypt their signatures.
 Upon exchanging and verifying these adaptor signatures, both parties have collected all data required to eventually broadcast the only valid CET.
 
