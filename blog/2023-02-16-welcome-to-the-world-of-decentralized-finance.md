@@ -16,9 +16,7 @@ In this blog post, we dive into the segmented USPs of 10101. From our brand (in 
 
 Today, there is not a single trading service which does not require you to hand over your keys in the Bitcoin space. Many have tried to improve that by e.g. automatic payouts and thus reducing the time your Bitcoin is out of your control, but the structural risks of custodial services remain. As such we don't think these solutions go far enough in bringing custody back to the trader.
 
-
 At 10101 we take this issue seriously and understand the importance of maintaining control over your Bitcoin - not your keys not your coins! Our goal is to provide a solution that empowers traders to retain control of their assets, without sacrificing convenience or security.
-
 
 - **Self-Custody**: 10101 is 100% self-sovereign - if not 10101%! 😉 At no point in time do you have to hand over your money to a third party. You are in control all the time. That means you can forget about the fees you have to pay on other platforms to get your funds in or out.
 - **Mobile First**: 10101 achieves self-sovereignty by using what is with you almost 24/7. Your phone. It's the perfect piece of infrastructure to run your trading service on. No need to become a DevOps expert to be able to trade. All you need to do is install an app on your iPhone or Android device.
@@ -30,11 +28,9 @@ We believe in free and uncensored trading without interference of any central au
 - Lightning Fast: With Lightning on top of Bitcoin you are able to trade or transfer your money instantly.
 - **No Counterparty Risk**: As your funds are secured in a Lightning channel by discreet log contracts (DLCs) there exists no counterparty risk. As long as you trust the verifiable source code of Bitcoin, Lightning and 10101 you don't have to trust any third party.
 
-
 While living up to our self-sovereign principles we are still offering fully fledged derivatives trading with all features you would expect from a custodial offering.
 
 - **P2P Order Book**: Trade with a multitude of traders using leveraged limit and market orders. Our order book service will coordinate the trade and connect traders to the best price offerings.
-
 
 Based on the derivatives trading we also offer a Synthetic USD wallet, which allows you to transfer your bitcoin at a stable USD price.
 
@@ -44,14 +40,11 @@ So, join us on this exciting journey, and start trading bitcoin without loosing 
 
 ![](/2023-02-16-decentralized-finace/moon.jpg)
 
-
 ## Market comparison
 
 We've analyzed every aspect of a self-sovereign trading experience which are relevant for Bitcoiners, and we're confident that our platform is the best choice for anyone looking to enter the world of decentralized trading in a secure manner. But don't just take our word for it - take a look at the comparison table for yourself, and discover why 10101 is the only choice for traders who demand the best.
 
-
 ![](/2023-02-16-decentralized-finace/table.png)
-
 
 ## Get involved!
 
@@ -61,4 +54,3 @@ If you are as excited as we are about noncustodial trading and all the really co
 - If you are a hacker at heart like us, check out our GitHub repositories: [10101](https://github.com/get10101/10101), our [rust-lightning fork](https://github.com/get10101/rust-lightning), [ItchySats](https://github.com/get10101/itchysats/releases/tag/0.7.0) and [more](https://github.com/get10101/).
 - If you'd like to work with us, drop us an email at hello@10101.finance.
 - And if you just want to chat, join our [Telegram](https://t.me/get10101) group or follow us on [Twitter](https://twitter.com/get10101).
-
