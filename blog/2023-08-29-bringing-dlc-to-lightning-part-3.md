@@ -20,8 +20,7 @@ In part 3, we are going to show you how 10101 is utilizing virtual channels to b
 
 In order to bring DLCs to Lightning we have to firstly bring them off-chain.
 *(Note, we have done this in the past at ItchySats[^1])*
-That is that we will have to secure our funds even if we do not directly go on-chain after a DLC expired (after the oracle attested to the outcome of an event).
-At this point you may want to setup another contract or simply extend the contract.
+That is so that we do not have to go on-chain directly after a DLC has been been expired (after the oracle attested to the outcome of an event) or renewed.
 
 A simple approach would be to make the CETs revocable, but that can't be done without putting the side revoking first at a disadvantage.
 The counterparty could then choose to publish the CETs from the previous or the current contract while they cannot, since they have already revoked them.
@@ -68,12 +67,12 @@ Note that different publish and revocation keys are used for the split transacti
 
 With a DLC channel living alongside the Lightning channel we are bringing DLCs to Lightning while still keeping a fully-functional Lightning wallet. However, while the proposed solution is certainly [feasible](https://github.com/get10101/10101/) there are still challenges that have to be addressed in future work.
 
-- **On-chain footprint**: Achieving a secure DLC channel requires an large on-chain footprint, potentially putting the other side at an advantage as the costs for going on-chain without collaboration is significant.
+- **On-chain footprint**: Lightning and DLC channels are secure because either party can go on-chain unilaterally at any point. But the split channel setup involves so many transactions that the associated fee costs are considerable. It can be very expensive to go on-chain without collaboration.
 
 - **Splicing**: Managing channel capacity dynamically for _two_ channels to the user's demands would really benefit from splicing capabilities. Interestingly our solution is already implicitly supporting a splice out, as we could for instance only close the DLC channel on-chain independently of the Lightning channel.
 However, a more ergonomic solution is required.
 
-- **Anchor Outputs**: The current transaction structure does not care for updating transaction fees. As there are multiple timelocks involved a simple CPFP is unfortunately not possible. On way to approach that issue is to add Anchor Outputs to the split and buffer transaction, but that would again increase the on-chain footprint significantly if the counterparty is not collaborative.
+- **Anchor Outputs**: The current transaction structure does not care for updating transaction fees. As there are multiple timelocks involved a simple CPFP is unfortunately not possible. One way to approach that issue is to add anchor outputs to the split and buffer transaction, but that would again increase the on-chain footprint significantly if the counterparty is not collaborative.
 
 ## Acknowledgements & References
 
