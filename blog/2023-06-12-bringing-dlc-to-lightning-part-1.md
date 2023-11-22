@@ -16,7 +16,7 @@ The series will consist of three parts:
 - **Part 2**: Exploring the incorporation of a **Custom DLC Output** on top of the Lightning commitment transaction.
 - **Part 3**: Discussing the integration of a **Virtual DLC channel** alongside the Lightning channel.
 
-*Teaser*: At 10101, we ultimately opted to develop virtual channels as our solution.
+_Teaser_: At 10101, we ultimately opted to develop virtual channels as our solution.
 
 ## A recap on Lightning
 
@@ -25,21 +25,21 @@ In order to understand the process of setting up a Discreet Log Contract (DLC) w
 When two Lightning nodes establish a channel, they collaboratively construct and sign two types of transactions: the funding transaction and the commitment transactions.
 
 1. **Funding Transaction:** takes a number of UTXOs from one of the two parties as inputs.
-These funds are locked within a 2-of-2 output, which necessitates the signatures of both parties to be spent.
-This output is known as the funding output and serves as a repository for the channel's funds.
+   These funds are locked within a 2-of-2 output, which necessitates the signatures of both parties to be spent.
+   This output is known as the funding output and serves as a repository for the channel's funds.
 
 1. **Commitment transaction:** references the funding output as its input and incorporates two outputs, each reflecting the balance held by the respective parties.
-It is important to note that these balances are subject to change throughout the channel's lifespan, thus requiring the commitment transaction to be updatable to accurately reflect these modifications.
-To achieve this, the commitment transaction is designed to be revocable.
-In practical terms, each party maintains a distinct version of the commitment transaction, with the output paying to themselves secured by a script that can be unlocked either by their own signature after a specific period or by their counterpart possessing a secret.
-When the parties reach an agreement to adjust the channel balance (e.g. one party intends to transfer a certain amount of sats to the other), they generate and exchange signatures for the updated commitment transactions while simultaneously revealing the secrets used in the previous versions.
-In the event of a party attempting to cheat the other by broadcasting an outdated commitment transaction, the opposing party has a window of time to respond and employ the revealed secret to claim all the channel's funds.
+   It is important to note that these balances are subject to change throughout the channel's lifespan, thus requiring the commitment transaction to be updatable to accurately reflect these modifications.
+   To achieve this, the commitment transaction is designed to be revocable.
+   In practical terms, each party maintains a distinct version of the commitment transaction, with the output paying to themselves secured by a script that can be unlocked either by their own signature after a specific period or by their counterpart possessing a secret.
+   When the parties reach an agreement to adjust the channel balance (e.g. one party intends to transfer a certain amount of sats to the other), they generate and exchange signatures for the updated commitment transactions while simultaneously revealing the secrets used in the previous versions.
+   In the event of a party attempting to cheat the other by broadcasting an outdated commitment transaction, the opposing party has a window of time to respond and employ the revealed secret to claim all the channel's funds.
 
 The following diagram illustrates the transaction structure of a lightning channel.
 
 ![](/2023-06-12-bringing-dlc-to-lightning-part-1/lightning_channel.png)
 
-*If you want to read up in more detail how Lightning works have a look at this [blog post](https://medium.com/softblocks/lightning-network-in-depth-part-1-payment-channels-b943607950dd)*
+_If you want to read up in more detail how Lightning works have a look at this [blog post](https://medium.com/softblocks/lightning-network-in-depth-part-1-payment-channels-b943607950dd)_
 
 ## A recap on Adaptor Signatures
 
@@ -50,7 +50,7 @@ These signatures are created as adaptor signatures using the oracle's announceme
 Using this publically available information both parties generate all possible signature points that could be released by the oracle and use them to encrypt their signatures.
 Upon exchanging and verifying these adaptor signatures, both parties have collected all data required to eventually broadcast the only valid CET.
 
-*If you want to read up in more detail about Adaptor Signatures and how they are used in the context of DLCs have a look at this [blog post](https://medium.com/crypto-garage/optimizing-numeric-outcome-dlc-creation-6d6091ac0e47#96e9)*
+_If you want to read up in more detail about Adaptor Signatures and how they are used in the context of DLCs have a look at this [blog post](https://medium.com/crypto-garage/optimizing-numeric-outcome-dlc-creation-6d6091ac0e47#96e9)_
 
 ## A recap on DLCs
 
@@ -64,9 +64,9 @@ After agreeing on the CETs, both parties exchange adaptor signatures on each of 
 
 The key characteristics of a CET are the following:
 
- - Only one CET will become valid after the attestation of one or multiple oracles.
- - Neither party can publish a valid CET without having the oracle's attestation.
- - Publishing a CET is unilateral after the oracle's attestation.
+- Only one CET will become valid after the attestation of one or multiple oracles.
+- Neither party can publish a valid CET without having the oracle's attestation.
+- Publishing a CET is unilateral after the oracle's attestation.
 
 The most simple example of a DLC is a binary option.
 The diagram below illustrates the transaction structure of such a DLC.
@@ -74,12 +74,11 @@ As the potential future event outcomes can only be true or false, only two CETs 
 
 ![](/2023-06-12-bringing-dlc-to-lightning-part-1/binary_dlc.png)
 
-*Note, in case of a numerical outcome, a CET would have to be created for every possible outcome or a range of outcomes.*
+_Note, in case of a numerical outcome, a CET would have to be created for every possible outcome or a range of outcomes._
 
 ## Next
 
 In the next blog post we are going to write about the first approach we tried to bringing DLCs to Lightning using a Custom DLC Output on the commitment transaction.
-
 
 ## References
 
