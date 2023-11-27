@@ -59,12 +59,7 @@ const config = {
     ],
   ],
 
-  scripts: [
-    {
-      src: "https://app.viral-loops.com/widgetsV2/core/loader.js",
-      async: true,
-    },
-  ],
+  scripts: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -94,16 +89,6 @@ const config = {
             html: "GitHub",
             href: "https://github.com/get10101/10101",
             position: "right",
-          },
-          {
-            type: "html",
-            value:
-              "<form-widget\n" +
-              '                  mode="popup"\n' +
-              '                  ucid="fYdNFh2lxfjzyTLHzY9gsiOs7K0"\n' +
-              '                  id="i-want-trade-action-bottom"\n' +
-              "                ></form-widget>",
-            position: "left",
           },
         ],
       },
