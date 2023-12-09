@@ -106,7 +106,7 @@ In any case, don't hesitate to get in touch with our team, who will be able to h
 
 You can count on our team and on the community!
 
-Fee free to join our social channels and get in touch!
+Feel free to join our social channels and get in touch!
 
 -   [10101 Telegram group](https://t.me/get10101/)
     
