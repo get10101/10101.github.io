@@ -38,7 +38,7 @@ That's why you need to make sure you back up your recovery phrase and keep it sa
 
 ### How is it possible to trade directly from my wallet, without a platform?
 
-This prowess is made possible by Discreet Log Contracts.
+This is made possible thanks to Discreet Log Contracts (DLCs).
 
 These are peer-to-peer contacts, involving two parties who lock funds into a specific channel. The release of which is conditional: when the contract expires, it releases the funds in the proportions corresponding to the conditions defined at the outset, using data from an oracle to ensure that the transaction proceeds smoothly, in order to prevent any non-collaborative outcome.
 
