@@ -18,7 +18,7 @@ You can try out the public beta immediately by downloading it from [Google Play]
 
 ### What is 10101?
 
-It's an all-in-one Bitcoin application that includes a Bitcoin wallet (On-chain) and a Lightning wallet as well, thus making it possible to send and receive bitcoins using both networks.
+It's an all-in-one Bitcoin application that includes a Bitcoin wallet (On-chain) and a Lightning wallet as well, thus making it possible to send and receive bitcoin using both networks.
 
 Once your Lightning wallet has been funded and your channel opened, the application will give you the ability to trade directly from your wallet, and even hold synthetic cash, such as USDp, the first USD on Lightning.
 
