@@ -45,7 +45,7 @@ A DLC is a multisig transaction output funded by two parties, which can be unila
 Applied to trading using 10101, a DLC is set up with the user providing part of the collateral and their counterparty in the trade providing the rest. In the case of BTCUSD perpetual swaps, the event external to the blockchain is the price of Bitcoin. The oracles eventually attest to the price and, depending on that value, the funds in the DLC can be split in a particular way, with the user realizing their PNL.
 
 
-DLCs can be seen as an additional layer built on top of the Lightning Network.
+Off-chain DLCs can be seen as an additional layer built on top of Bitcoin and the Lightning Network.
 
 If you want to learn more, we produced a series of [blog posts](https://10101.finance/blog/dlc-to-lightning-part-1) on this topic, and another one on the specific case of [trading settlements](https://10101.finance/blog/trade-settlement).
 
