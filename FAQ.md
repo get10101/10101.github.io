@@ -16,7 +16,7 @@ You can try out the public beta immediately by downloading it from [Google Play]
 
 10101 is pronounced "ten ten one", and it means 21 in binary. Just a pun!
 
-### What is 10101
+### What is 10101?
 
 It's an all-in-one Bitcoin application that includes a Bitcoin wallet (On-chain) and a Lightning wallet as well, thus making it possible to send and receive bitcoins using both networks.
 
