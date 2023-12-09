@@ -81,7 +81,7 @@ Depending on the size of this channel, you'll be able to open larger or smaller 
 
 ### Can I fund my Lightning wallet with my On-chain balance?
 
-It is not yet possible to fund your Lightning with your on-chain balance directly from the app, you will need to fund it from another Lightning wallet, or use a third party service that will allow you to perform atomic swaps, such as [Boltz](https://boltz.exchange)
+It is not yet possible to fund your Lightning wallet with your on-chain balance directly from the app. You will need to fund it from another Lightning wallet, or use a third party service that will allow you to perform atomic swaps, such as [Boltz](https://boltz.exchange).
 
 ### Can I open several positions at the same time?
 
