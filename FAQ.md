@@ -79,7 +79,7 @@ To fund your Lightning wallet, you'll need to open a channel with 10101, with a 
 
 Depending on the size of this channel, you'll be able to open larger or smaller positions in the trading section, or hold more or less synthetic currency in your wallet.
 
-### Can I fund my Lightning wallet with my On-chain balance?
+### Can I fund my Lightning wallet with my on-chain balance?
 
 It is not yet possible to fund your Lightning wallet with your on-chain balance directly from the app. You will need to fund it from another Lightning wallet, or use a third party service that will allow you to perform atomic swaps, such as [Boltz](https://boltz.exchange).
 
