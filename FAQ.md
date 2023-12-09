@@ -93,7 +93,7 @@ Part of this reserve must remain in your channel to keep it open. Another part i
 
 ### Why can I no longer see my funds on my Lightning balance?
 
-We're sorry to hear that you may have had a forced channel closure, this can happen for a variety of reasons...
+It is very likely that your channel was force-closed. You probably ran into a bug. We're sorry about that.
 
 Don't worry, your funds will soon be available on your On-chain balance (within two to three days), this delay is due to security timelocks related to Lightning On-chain operations.
 
