@@ -91,7 +91,7 @@ You will not be able to open positions covering your entire Lightning balance, a
 
 Part of this reserve must remain in your channel to keep it open. Another part is also reserved so that on-chain transaction fees can be covered, enabling you to recover your funds in any worst-case scenario.
 
-### I can no longer see my funds on my lightning balance
+### Why can I no longer see my funds on my Lightning balance?
 
 We're sorry to hear that you may have had a forced channel closure, this can happen for a variety of reasons...
 
