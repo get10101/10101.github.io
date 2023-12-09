@@ -55,7 +55,7 @@ If you want to learn more, we produced a series of [blog posts](https://10101.fi
 USDp and synthetic currencies within 10101 are referred to as synthetics in finance.
 USDp represents a stable USD balance because it is backed by a DLC which pays out a variable number of sats corresponding to a _fixed_ amount of USD.
 
-It's a financial product that hedges you against the volatility of Bitcoin and tracking the value of USD, using only Bitcoin.
+It's a financial product to hedge against the volatility of Bitcoin whilst tracking the value of USD, using only Bitcoin.
 
 If you want to learn more about it we've produced a [blog post](https://10101.finance/blog/synthetic-stable) on this topic.
 
