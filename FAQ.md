@@ -24,7 +24,7 @@ Once your Lightning wallet has been funded and your channel opened, the applicat
 
 ### On-chain? Lightning?
 
-On-chain is a term used to designate the traditional Bitcoin network : It is used for its high level of security and verifiability, and allows large amounts of money to be sent and received for a fee to register transactions in the blockchain.
+On-chain is a term used to designate the traditional Bitcoin network: It is used for its high level of security and verifiability, and allows large amounts of money to be sent and received for a fee.
 
 Lightning is a payment network built on top of Bitcoin (referred as layer), designed to enable instant and practically free transactions once your node and channel are set up, while benefiting from the security of Bitcoin's legacy network.
 
