@@ -40,7 +40,9 @@ That's why you need to make sure you back up your recovery phrase and keep it sa
 
 This is made possible thanks to Discreet Log Contracts (DLCs).
 
-These are peer-to-peer contacts, involving two parties who lock funds into a specific channel. The release of which is conditional: when the contract expires, it releases the funds in the proportions corresponding to the conditions defined at the outset, using data from an oracle to ensure that the transaction proceeds smoothly, in order to prevent any non-collaborative outcome.
+A DLC is a multisig transaction output funded by two parties, which can be unilaterally spent by either one according to a future event _external_ to the blockchain. One or more oracles are used as trusted, oblivious third parties, as they attest to the outcome of the event and determine how the funds will be split.
+
+Applied to trading using 10101, a DLC is set up with the user providing part of the collateral and their counterparty in the trade providing the rest. In the case of BTCUSD perpetual swaps, the event external to the blockchain is the price of Bitcoin. The oracles eventually attest to the price and, depending on that value, the funds in the DLC can be split in a particular way, with the user realizing their PNL.
 
 
 DLCs can be seen as an additional layer built on top of the Lightning Network.
