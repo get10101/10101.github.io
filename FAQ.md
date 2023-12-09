@@ -69,7 +69,7 @@ In the case of 10101, this backup will enable you to restore your funds within t
 
 ### Do I have to run a node separately to use 10101?
 
-The lightning self-custodial wallet embeds a node directly on your device, so there's no need to run a separate node to use the app.
+The Lightning self-custodial wallet embeds a node directly on your device, so there's no need to run a separate node to use the app.
 
 As for the Bitcoin wallet (On-Chain), it will soon be possible to connect your own node, in order to be independent and sovereign in broadcasting and receiving your transactions from your device.
 
