@@ -65,7 +65,7 @@ Your recovery phrase (sometimes called "seed") is the only way to redeem your fu
 
 You absolutely must save it and keep it in a safe place.
 
-In the case of 10101, this backup will enable you to restore your funds within the app from both your on-chain and lightning wallet, as well as your transaction history and open orders, if you haven't exceeded the time limit* for your futures contracts.
+In the case of 10101, this backup will enable you to restore your funds within the app from both your on-chain and Lightning wallet, as well as your transaction history and open orders.
 
 ### Do I have to run a node separately to use 10101?
 
