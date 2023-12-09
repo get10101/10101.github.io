@@ -95,7 +95,7 @@ Part of this reserve must remain in your channel to keep it open. Another part i
 
 It is very likely that your channel was force-closed. You probably ran into a bug. We're sorry about that.
 
-Don't worry, your funds will soon be available on your On-chain balance (within two to three days), this delay is due to security timelocks related to Lightning On-chain operations.
+Your funds should soon be available on your on-chain balance (within two to three days). This delay is due to security timelocks related to Lightning on-chain operations.
 
 In any case, don't hesitate to get in touch with our team, who will be able to help you and answer your questions on our dedicated telegram [support channel](https://t.me/get10101/1189).
 
