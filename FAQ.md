@@ -30,7 +30,7 @@ Lightning is a payment network built on top of Bitcoin (referred as layer), desi
 
 ### Will 10101 manage the funds for me?
 
-No, at no time will 10101 hold your bitcoins.
+No, at no time will 10101 hold your bitcoin.
 
 Our application makes a point of respecting and educating users in the principles of self-custody : you hold your own keys, you remain responsible for your wallet and funds, and you retain full control throughout your experience.
 
