@@ -53,7 +53,7 @@ If you want to learn more, we produced a series of [blog posts](https://10101.fi
 ### How do USDp and synthetic currencies work?
 
 USDp and synthetic currencies within 10101 are referred to as synthetics in finance.
-You will have a USD balance circulating on Lightning, holding nothing but sats and a short position combined.
+USDp represents a stable USD balance because it is backed by a DLC which pays out a variable number of sats corresponding to a _fixed_ amount of USD.
 
 It's a financial product that hedges you against the volatility of Bitcoin and tracking the value of USD, using only Bitcoin.
 
