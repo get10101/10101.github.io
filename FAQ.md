@@ -75,7 +75,7 @@ As for the Bitcoin wallet (On-Chain), it will soon be possible to connect your o
 
 ### How can I fund my Lightning wallet?
 
-To fund your lightning wallet, you'll need to open a channel with 10101, with a minimum deposit size of 60,000 sats and a maximum of 3 million sats.
+To fund your Lightning wallet, you'll need to open a channel with 10101, with a minimum deposit size of 60,000 sats and a maximum of 3 million sats.
 
 Depending on the size of this channel, you'll be able to open larger or smaller positions in the trading section, or hold more or less synthetic currency in your wallet.
 
