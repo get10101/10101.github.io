@@ -15,6 +15,7 @@ You can try out the public beta immediately by downloading it from [Google Play]
 ### Why "10101"?
 
 10101 is pronounced "ten ten one", and it means 21 in binary. Just a pun!
+There will never be more than 21 million bitcoins!
 
 ### What is 10101?
 
@@ -105,11 +106,14 @@ In any case, don't hesitate to get in touch with our team, who will be able to h
 
 You can count on our team and on the community!
 
-Fee free to join our social channels and get in touch! 
--   [https://10101.finance/](https://10101.finance/)
+Fee free to join our social channels and get in touch!
+
+-   [10101 Telegram group](https://t.me/get10101/)
     
--   [https://x.com/get10101](https://x.com/get10101)
+-   [10101 Matrix](https://matrix.to/#/#tentenone:matrix.org)
+  
+-   [10101 Website](https://10101.finance/)
     
--   [https://github.com/get10101/10101/](https://github.com/get10101/10101/)
+-   [10101 on X](https://x.com/get10101)
     
--   [https://matrix.to/#/#tentenone:matrix.org](https://matrix.to/#/#tentenone:matrix.org)
+-   [10101 GitHub](https://github.com/get10101/10101/)
