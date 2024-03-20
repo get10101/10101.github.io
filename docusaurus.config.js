@@ -116,7 +116,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 10101, Built with ♥️ by CoBloX`,
+        copyright: `Copyright © ${new Date().getFullYear()} 10101, Built with ♥️ by 10101`,
       },
       prism: {
         theme: lightCodeTheme,
