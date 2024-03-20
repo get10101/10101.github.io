@@ -28,26 +28,26 @@ And we actually managed to do all of that. But the user experience wasn't nearly
 We've had problems with Lightning at every step of the user's journey through 10101:
 
 - Users found it difficult to move coins into 10101.
-A Lightning payment can fail for many reasons, and it is often hard to pinpoint the cause.
-We generally overcame these issues as we learnt more about Lightning, but it is pretty scary to lose a potential user at the first hurdle.
+  A Lightning payment can fail for many reasons, and it is often hard to pinpoint the cause.
+  We generally overcame these issues as we learnt more about Lightning, but it is pretty scary to lose a potential user at the first hurdle.
 
 - Users found it very difficult to move coins out of 10101.
-If you have used 10101 to pay an invoice, you have almost certainly run into the dreaded `route not found` error message.
-Similar to the previous point, debugging these problems was not simple.
-In some cases, our node was at fault because routing channels were unusable or the channel-scoring component was not up-to-date.
-Other times, payments would fail because the 10101 app had a stale channel graph of the Lightning network.
+  If you have used 10101 to pay an invoice, you have almost certainly run into the dreaded `route not found` error message.
+  Similar to the previous point, debugging these problems was not simple.
+  In some cases, our node was at fault because routing channels were unusable or the channel-scoring component was not up-to-date.
+  Other times, payments would fail because the 10101 app had a stale channel graph of the Lightning network.
 
 - Channels would be force-closed for no apparent reason.
-Of course, there is always a reason.
-Disagreements during fee negotiations and expired HTLCs were the main culprits here.
-Regardless, any unnecessary force-closure is catastrophic because it is a waste of money and time for everyone involved.
-And this is particularly egregious when you are in a high transaction fee environment, like the one we experienced in 2023.
+  Of course, there is always a reason.
+  Disagreements during fee negotiations and expired HTLCs were the main culprits here.
+  Regardless, any unnecessary force-closure is catastrophic because it is a waste of money and time for everyone involved.
+  And this is particularly egregious when you are in a high transaction fee environment, like the one we experienced in 2023.
 
 - When an LN-DLC channel[^1] was force-closed, getting the money back was a huge ordeal.
-The LN-DLC protocol requires up to 5 different transactions to be published when a channel is closed unilaterally.
-Several of these transactions have long timelocks to keep the protocol safe, and every transaction needs to pay a fee to be mined.
-This meant that it could take a very long time for a substantially smaller portion of the funds to be returned.
-And, in some edge cases, certain transactions would not even get mined because their reserved fees were too low compared to the rest of mempool[^2].
+  The LN-DLC protocol requires up to 5 different transactions to be published when a channel is closed unilaterally.
+  Several of these transactions have long timelocks to keep the protocol safe, and every transaction needs to pay a fee to be mined.
+  This meant that it could take a very long time for a substantially smaller portion of the funds to be returned.
+  And, in some edge cases, certain transactions would not even get mined because their reserved fees were too low compared to the rest of mempool[^2].
 
 As you might imagine, many developer hours were spent chasing Lightning-related bugs[^3], and this was complicated further by the fact that we were maintaining an extremely complex chain of code dependencies to support Lightning in the first place.
 We received excellent support from the maintainers of `rust-dlc` and `rust-lightning`, but we were always fighting an uphill battle.
@@ -104,16 +104,18 @@ If you have any further questions or comments, please reach out on [Telegram](ht
 We always want to hear from you.
 And if you haven't used the 10101 app yet, head over to [10101.finance](https://10101.finance), where you can find download links for you app store of choice.
 
-[^1]: LN-DLC channels are channels that support both the Lightning protocol (for payments) and DLC channels (for trading, in 10101).
-They are the construct that allowed 10101 to users to use Lightning and trade at the same time, with a single channel.
+[^1]:
+    LN-DLC channels are channels that support both the Lightning protocol (for payments) and DLC channels (for trading, in 10101).
+    They are the construct that allowed 10101 to users to use Lightning and trade at the same time, with a single channel.
 
-[^2]: We could have fixed this by ensuring that each LN-DLC transaction included an anchor output (per party).
-In fact, this is something that we now need to address for DLC channels, where the buffer transaction does not include anchor outputs.
+[^2]:
+    We could have fixed this by ensuring that each LN-DLC transaction included an anchor output (per party).
+    In fact, this is something that we now need to address for DLC channels, where the buffer transaction does not include anchor outputs.
 
-[^3]: To be clear, this is not to blame Lightning for all of our problems.
-Users also encountered problems with parts of the app that did not involve Lightning directly.
-And, in any case, we take responsibility for the bugs that our users have run into during the beta.
+[^3]:
+    To be clear, this is not to blame Lightning for all of our problems.
+    Users also encountered problems with parts of the app that did not involve Lightning directly.
+    And, in any case, we take responsibility for the bugs that our users have run into during the beta.
 
 [^4]: The author of which is Thibaut Le Guilly, the maintainer of `rust-dlc`.
-
 [^5]: We used extremely similar technology in our previous project, ItchySats.

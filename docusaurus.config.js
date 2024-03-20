@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -32,7 +33,6 @@ const config = {
     locales: ["en"],
   },
 
-  title: "10101 Blog",
   staticDirectories: ["static"],
 
   presets: [
@@ -40,11 +40,15 @@ const config = {
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: false,
+        docs: {
+          sidebarPath: "./sidebars.js",
+          // Remove this to remove the "edit this page" links.
+          // editUrl: 'https://github.com/get10101/10101.github.io',
+        },
         blog: {
           showReadingTime: true,
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/get10101/10101.github.io",
+          // editUrl: "https://github.com/get10101/10101.github.io",
           // Sets the number of blog posts shown in recent blog posts.
           blogSidebarCount: 10,
         },
@@ -74,6 +78,12 @@ const config = {
           srcDark: "img/logo/logo_dark-theme.svg",
         },
         items: [
+          {
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Docs",
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             html: "Twitter",
@@ -116,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 10101, Built with ♥️ by CoBloX`,
+        copyright: `Copyright © ${new Date().getFullYear()} 10101, Built with ♥️ by 10101`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -2,7 +2,7 @@
   "$schema": "https://dprint.dev/schemas/v0.json",
   "projectType": "openSource",
   "incremental": true,
-  "includes": ["**/*.{md,json,yml,yaml,toml,html,js,css}"],
+  "includes": ["**/*.{md,mdx,json,yml,yaml,toml,html,js,css}"],
   "excludes": [
     "**/target",
     "**/dist",
