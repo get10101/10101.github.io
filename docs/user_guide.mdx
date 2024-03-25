@@ -15,22 +15,26 @@ Please let us know on our [Telegram](https://t.me/get10101) group so that we can
 ## Download 10101
 
 You can find all links to download 10101 on our website: https://10101.finance
-![](/032124_user_guide/site.png)
+![](/2024-03-21_user_guide/site.png)
 
 You can select your operating system : [iOS](https://testflight.apple.com/join/WhwnPUh8) or [Android](https://play.google.com/store/apps/details?id=finance.get10101.app)
 
 You can also download the [APK file](https://github.com/get10101/10101/releases/latest) for Android from our GitHub repo
 
 ## Launch 10101
-![](/032124_user_guide/carousel 1.png)
+
+![](/2024-03-21_user_guide/carousel_1.png)
+
 When you open the application for the first time, you'll be greeted by a carousel providing you with some important information.
 
 **Make sure you read it before continuing to the next step.**
 
 ## Wallet
 
-  ### Create new wallet
-![](/032124_user_guide/new wallet.png)
+### Create new wallet
+
+![](/2024-03-21_user_guide/carousel_3.png)
+
 By choosing this option, a disclaimer will be shown.
 Read them through, and check off the statements below to continue.
 
@@ -39,24 +43,32 @@ You can also optionally insert a contact here to stay in touch with our team: a 
 Once you're ready, click on "continue".
 
 ### Restore wallet from backup
-![](/032124_user_guide/restore.png)
+
+![](/2024-03-21_user_guide/restore.png)
+
 If you had troubles with your phone, or if you lost your data, you might need to restore your wallet. By choosing his option, **you will need to enter your 12 words seed phrase backup** before you continue.
 
 ## Fund your on-chain wallet
-![](/032124_user_guide/homescreen1.png)
-![](/032124_user_guide/receive.png)
+
+|                                             |                                         |
+| :-----------------------------------------: | :-------------------------------------: |
+| ![](/2024-03-21_user_guide/homescreen1.png) | ![](/2024-03-21_user_guide/receive.png) |
+
 First you need to send sats on your self-custodial on-chain wallet.
 
 From the **home screen**, click on "receive".
 On the "receive" screen, you will be able to copy a receiving address to the clipboard, or to scan the QR code to send funds directly from another wallet.
 
-ℹ️ There is a notice at the bottom of this screen that's your first time funding your wallet. **Take good note that the minimum `DLC Channel` size is 250.000 sats**, it might be wise to send at least 275,000 sats to offset a potential high fees environment. 
+> ℹ️ There is a notice at the bottom of this screen that's your first time funding your wallet. **Take good note that the minimum `DLC Channel` size is 250.000 sats**, it might be wise to send at least 275,000 sats to offset a potential high fees environment.
 
-> But it could be even wiser, if possible, to open the largest channel possible: the larger it is, the greater the potential gain without on-chain footprint, and therefore the lower the on-chain fees.
+But it could be even wiser, if possible, to open the largest channel possible: the larger it is, the greater the potential gain without on-chain footprint, and therefore the lower the on-chain fees.
 
 ## Open your first trade
-![](/032124_user_guide/homescreen2.png)
-![](/032124_user_guide/tradetab1.png
+
+|               Solarized dark                |              Solarized Ocean              |
+| :-----------------------------------------: | :---------------------------------------: |
+| ![](/2024-03-21_user_guide/homescreen2.png) | ![](/2024-03-21_user_guide/tradetab1.png) |
+
 From the **home screen**, click on the **trading tab**.
 
 From here, you can view the BTCUSD price chart.
@@ -66,12 +78,13 @@ Currently, you can submit orders on **futures** contracts at **market price** wi
 To open a position, you must click on the **BUY** or **SELL** button, respectively if you wish to LONG (bet on the upside) or SHORT (bet on the downside).
 
 ### Set your trade parameters
-![](/032124_user_guide/tradeconfig.png)
+
+![](/2024-03-21_user_guide/tradeconfig.png)
 
 You picked your side? fine.
 
 You have the option to adjust both the **quantity** of your trade and the **leverage** you wish to employ.
-Based on the chosen **quantity** and **leverage**, the **margin** and **liquidation price** are calculated automatically. 
+Based on the chosen **quantity** and **leverage**, the **margin** and **liquidation price** are calculated automatically.
 
 - The quantity refers to the number of contracts you wish to trade, where each contract equals 1 USD. **The minimal quantity is 1 contract as long as your channel is open and funded.**
 - Leverage in futures trading allows traders to control larger positions with a smaller amount of capital, amplifying potential profits (as well as losses) by opening larger positions than their initial investment would allow. **Currently, the maximal leverage is x5.**
@@ -79,14 +92,15 @@ Based on the chosen **quantity** and **leverage**, the **margin** and **liquidat
 - The liquidation price is the threshold at which a trade is automatically closed to prevent additional losses beyond the **margin's** coverage. If your **PnL** exceeds your margin
 - PnL, or Profits and Losses refers to the potential profit or loss from an open position that has not been closed yet.
 
-
 ### Open your DLC Channel
-![](/032124_user_guide/channelconfig.png)
-![](/032124_user_guide/confirm.png)
+
+|                                               |                                         |
+| :-------------------------------------------: | :-------------------------------------: |
+| ![](/2024-03-21_user_guide/channelconfig.png) | ![](/2024-03-21_user_guide/confirm.png) |
 
 The first time you open a trade, you will need to open your `DLC Channel`.
 
-> A DLC channel can be likened to a Lightning channel. It operates on a
+> A DLC channel can be compared to a Lightning channel. It operates on a
 > dual-funded Multisig model, facilitating off-chain transactions that
 > move the cursor between each party's off-chain balances. These
 > balances can be collaboratively or unilaterally moved back on-chain.
@@ -95,24 +109,35 @@ The first time you open a trade, you will need to open your `DLC Channel`.
 The minimal channel size is 250.000 sats, or needs to cover the margin of your first trade if it exceeds 250.000 sats.
 **However, it might be wise, if possible, to open the largest channel as possible: the larger it is, the greater the potential gain without on-chain footprint, and therefore the lower the on-chain fees.**
 
-ℹ️ Pay attention to the channel opening transaction fees, known as `Funding Tx`: if too low, the funding transaction will not be confirmed and you won't be able to close your trades without bumping the fees with a CPFP transaction. If you need help, contact us on our [Telegram](https://t.me/get10101) group
+> ℹ️ Pay attention to the channel opening transaction fees, known as `Funding Tx`: if too low, the funding transaction will not be confirmed and you won't be able to close your trade without bumping the transaction with a CPFP transaction. If you need help, contact us on our [Telegram](https://t.me/get10101) group.
 
 ### Monitor your position
-![](/032124_user_guide/positions.png)
-From the trading tab, you will be able to see your open position details. 
-PnL, margin, leverage, **expiry**, quantity, liquidation price, entry price.
+
+![](/2024-03-21_user_guide/positions.png)
+
+From the trading tab, you will be able to see your open position details.
+PnL, margin, leverage, expiry, quantity, liquidation price, entry price.
 
 You can also click on the share button to **brag the bag**.
 
 ### Brag the bag
-![](/032124_user_guide/bragthebag.png)
+
+![](/2024-03-21_user_guide/bragthebag.png)
+
 You have the option to share your position's profit and loss (PnL) as well as its details on social networks like X, Nostr, and Telegram. Additionally, you can choose a meme that reflects your current sentiment based on how's your position doing.
 
 ### Orders history
-![](/032124_user_guide/orders.PNG)
+
+![](/2024-03-21_user_guide/orders.PNG)
+
 You can explore your past orders on that screen.
 
 ## Rollover your position
+
 In an ideal world there would be no expiry, but the operation of DLCs requires an expiration date for the position. It is set to 1 week by default.
 
 We introduced a quick and simple way to renew it, codenamed _rollover weekends_: If you come online between Friday, 15:00 CET and Sunday, 15:00 CET your position extends for another week.
+
+## Contacts
+
+If you have any questions, feel free to reach out to us on Telegram [https://t.me/get10101](https://t.me/get10101).
