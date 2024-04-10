@@ -192,6 +192,8 @@ The _funding transaction_ is the on-chain transaction that occurs when you open 
 
 When closing your _DLC Channel_, there will be no additionnal mining fees to broadcast the commit transaction on-chain: the cost of these fees was anticipated and reserved at the time of the _funding transaction_.
 
+_If current mining fees are exceptionally high, your commit transaction may be stuck in the mempool. You can still adjust the fees by bumping the transaction with a CPFP._
+
 **Funding rates**
 There is currently no fees for keeping a trade open. Please note that this may change in the future.
 
