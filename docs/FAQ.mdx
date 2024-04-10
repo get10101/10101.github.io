@@ -162,6 +162,29 @@ https://github.com/get10101/10101/releases
 You can find the APK corresponding to the architecture of your device and the associated signature files.
 Only the latest release can be used with our coordinator. There might be a new pre-release but this is only in preparation.
 
+### What is the fee structure when I use 10101?
+
+First of all, we need to distinguish between the mining fees corresponding to the required on-chain transactions, and the service fees applied by 10101.
+
+**Opening a DLC Channel**
+There is currently no service fee for opening a DLC channel. Please note that this may change in the future.
+
+The _funding transaction_ is the on-chain transaction that occurs when you open your DLC channel. The mining fees or this transaction will be split 50/50 between the user and the 10101 coordinator.
+
+When closing your DLC Channel, there will be no additionnal mining fees to broadcast the commit transaction on-chain: the cost of these fees was anticipated and reserved at the time of the _funding transaction_.
+
+**Funding rates**
+There is currently no fees for keeping a trade open. Please note that this may change in the future.
+
+**Order matching fees**
+The service provided by our coordinator to match your order with a counterparty will be charged 0.3% of the _Quantity_ of your trade (number of contracts, USD) in sats, at the current price exchange.
+
+It is important to note that the closing of a position is an implied opposite trade, and will therefore be charged in the same way as the opening of the position.
+
+Example:
+- Alice opens a $1000 **LONG** trade. The coordinator will charge $3, in sats, at the current exchange rate.
+- Alice closes her position in profit, which means that she implicitly opens a $1000 **SHORT** trade. The coordinator will charge $3, in sats, at the current exchange rate, i.e. fewer sats than the opening trade, since the price has increased since.
+
 ### I need help / troubleshooting
 
 If you use our TestFlight app for iOS, you can send us a crash report directly from your app, or from TestFlight. More details here: https://testflight.apple.com/#giving-feedback
