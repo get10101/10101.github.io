@@ -76,7 +76,7 @@ If you want to learn more, we produced a series of [blog posts](https://10101.fi
 
 DLC channels are bilaterally funded during the first trade order.
 
-We, on our side, will always put the necessary margin to cover the quantity (number of contracts) of your trade with a x2 leverage.
+Our coordinator, will always put the necessary margin to cover the _Quantity_ (number of contracts) of your trade with a x2 leverage.
 
 Examples:
 
@@ -86,7 +86,7 @@ Examples:
   **Total channel value : 0.075BTC**
 - If the **opening price is $40,000** and you open **a $2,000 position** with a **x2 leverage**, the channel will be perfectly balanced as both parties will have a **0.025BTC margin**, for a **total channel value of 0.05BTC**
 
-Conclusion : your margin in BTC will depend on the opening price, quantity, and on the leverage you choose. Ours will always remain relative to the opening price and quantity you have selected
+Conclusion : your margin in BTC will depend on the opening price, _Quantity_, and on the leverage you choose. Ours will always remain relative to the opening price and _Quantity_ you have selected
 
 **As your first trade defines the configuration of your channel, it's important to take the above elements into account when assessing your payout expectations (our maring minus the order matchinng fees).**
 
@@ -127,11 +127,19 @@ For the time being, renewing a position is free of charge, but a funding rate wi
 It is not yet possible to open several different positions.
 However, it is in our plans to make it possible to resize your position at any time, without changing the leverage.
 
-If you want to resize your position beyond the limits of your DLC Channel, you would have to resize your _channel_ (see next section).
+If you want to resize your position beyond the limits of your DLC Channel, you would have to resize your _channel_.
 
-### Can I resize my DLC Channel (splicing)?
+### Why are my trades limited to small quantity amounts?
+
+If you are short of liquidity on **your side** of the DLC channel, the _Quantity_ you can trade is limited by the liquidity you have on that channel, which reduces the available margin you can commit to a trade.
+
+Same thing the other way around: If you're doing great and the coordinator is short of liquidity on **his side** of the channel, he _Quantity_ you can trade is limited by the liquidity he has on that channel, which reduces the available margin he can commit to a trade.
+
+### Can I resize my _DLC Channel_ (splicing)?
 
 No, but definitely in the future. Splicing would be more cost-effective than closing and reopening a _channel_
+
+At the moment, you will need to close your current _channel_, and open a bigger one.
 
 ### I can't see my full on-chain balance, how to fix it?
 
@@ -151,7 +159,7 @@ Part of this reserve must remain so that on-chain transaction fees can be covere
 
 ### Can I fund my 10101 wallet using Lightning?
 
-From version 1.8.0, it's no longer possible to fund your wallet nor your DLC Channel via Lightning.
+From version 1.8.0, it's no longer possible to fund your wallet nor your _DLC Channel_ via Lightning.
 However, we are working on reintroducing this feature. Stay tuned!
 
 ### As an Android user, I don't have access to the Play Store. How can I try out the application anyway?
@@ -166,12 +174,12 @@ Only the latest release can be used with our coordinator. There might be a new p
 
 First of all, we need to distinguish between the mining fees corresponding to the required on-chain transactions, and the service fees applied by 10101.
 
-**Opening a DLC Channel**
-There is currently no service fee for opening a DLC channel. Please note that this may change in the future.
+**Opening a _DLC Channel_**
+There is currently no service fee for opening a _DLC channel_. Please note that this may change in the future.
 
-The _funding transaction_ is the on-chain transaction that occurs when you open your DLC channel. The mining fees or this transaction will be split 50/50 between the user and the 10101 coordinator.
+The _funding transaction_ is the on-chain transaction that occurs when you open your _DLC channel_. The mining fees or this transaction will be split 50/50 between the user and the 10101 coordinator.
 
-When closing your DLC Channel, there will be no additionnal mining fees to broadcast the commit transaction on-chain: the cost of these fees was anticipated and reserved at the time of the _funding transaction_.
+When closing your _DLC Channel_, there will be no additionnal mining fees to broadcast the commit transaction on-chain: the cost of these fees was anticipated and reserved at the time of the _funding transaction_.
 
 **Funding rates**
 There is currently no fees for keeping a trade open. Please note that this may change in the future.
