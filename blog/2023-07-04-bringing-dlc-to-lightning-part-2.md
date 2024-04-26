@@ -11,6 +11,8 @@ In the first part of this series, we provided an overview of Lightning, Adaptor 
 
 In part 2, we will now delve into the approach of expanding the commitment transaction with a custom output. This was our first attempt at bringing DLCs to Lightning.
 
+<!-- truncate -->
+
 ## Adding a DLC to a Lightning commitment transaction
 
 A Lightning commitment transaction, which represents the state of your Lightning channel off-chain, can only contain three kinds of outputs:

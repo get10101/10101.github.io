@@ -15,6 +15,8 @@ Check out the first two blog posts if you haven't already.
 
 In part 3, we are going to show you how 10101 is utilizing virtual channels to bring DLCs to Lightning.
 
+<!-- truncate -->
+
 ## DLC Channel
 
 In order to bring DLCs to Lightning we have to firstly bring them off-chain.

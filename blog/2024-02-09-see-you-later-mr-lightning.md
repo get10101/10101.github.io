@@ -10,6 +10,8 @@ tags: [DLC-Channels, Lightning]
 If you are reading this post, you may have already heard that we have closed all Lightning channels with our users, replacing them with DLC channels.
 That may sound like a step backwards, so we want to explain our reasoning behind this decision and tell you why we think it is actually a good thing.
 
+<!-- truncate -->
+
 ## Why we started with Lightning
 
 10101 was conceived as a mobile Lightning wallet with trading capabilities.

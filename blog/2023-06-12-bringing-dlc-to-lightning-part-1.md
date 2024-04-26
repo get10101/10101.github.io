@@ -16,6 +16,8 @@ The series will consist of three parts:
 - **Part 2**: Exploring the incorporation of a **Custom DLC Output** on top of the Lightning commitment transaction.
 - **Part 3**: Discussing the integration of a **Virtual DLC channel** alongside the Lightning channel.
 
+<!-- truncate -->
+
 _Teaser_: At 10101, we ultimately opted to develop virtual channels as our solution.
 
 ## A recap on Lightning
