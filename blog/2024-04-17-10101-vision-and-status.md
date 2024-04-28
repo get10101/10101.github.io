@@ -13,6 +13,8 @@ Welcome to a new chapter in financial freedom. At 10101, we are not just buildin
 
 **Trading Bitcoin is Broken!**
 
+<!-- truncate -->
+
 ![Where is my money](/2024-17-04-10101-vision-and-status/mtgox.png)
 
 If you're familiar with Bitcoin, you know its core promise: to serve as unstoppable, censorship-resistant digital money. Central to this promise is the ability to self-custodize your Bitcoin—ensuring you never need to trust anyone else with your assets. The mantra "don’t trust, verify" isn’t just a slogan; it's a fundamental principle of the Bitcoin ecosystem.

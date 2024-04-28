@@ -47,10 +47,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/get10101/10101.github.io",
-          // Sets the number of blog posts shown in recent blog posts.
-          blogSidebarCount: 10,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          blogDescription: 'Decentralized Finance. For Real!',
+          postsPerPage: 'ALL',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
