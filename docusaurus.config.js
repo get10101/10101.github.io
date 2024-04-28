@@ -49,7 +49,7 @@ const config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
-          blogDescription: 'Decentralized Finance. For Real.!',
+          blogDescription: 'Decentralized Finance. For Real!',
           postsPerPage: 'ALL',
         },
         theme: {
