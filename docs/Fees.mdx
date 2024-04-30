@@ -1,0 +1,57 @@
+---
+sidebar_position: 1
+slug: Fees
+title: 10101's Fee Structure
+---
+
+# 10101's Fee Structure
+
+## Channels
+### Channel opening fees:
+10101 doesn't charge any fee for opening a **DLC Channel** (or trading channel).
+This may change in the future, but rest assured that we will communicate any updates on the subject.
+
+ℹ️ *When opening a channel, you're funding a 2-on-2 multisig. This action involves mining fees on the Bitcoin blockchain.*
+> 🎁 Please note that **the implied mining fees are shared at 50% by 10101's coordinator!** 🎁
+
+
+### Channel closing fees:
+10101 doesn't charge any fee for opening a **DLC Channel** (or trading channel).
+
+ℹ️ *When closing a channel, you're broadcasting a transaction from the 2-of-2 multisig to your on-chain wallet. This action involves mining fees on the Bitcoin blockchain, however, a reserve has been set aside for this purpose when the channel was opened.*
+>  ⚠️ Depending on the fee environment, the reserve might be large enough to cover the fee requirements. **This transaction could get stuck in the mempool.** It's possible to bump this transaction by performing a CPFP transaction. ⚠️
+
+## Trading
+### Order matching fees:
+10101 will charge fees to match your position with another.
+These fees correspond to 0.3% of the **QUANTITY** (the size of your trade expressed in USD) and are obviously paid in sats at the current exchange rate.
+
+ℹ️ *If you open a $1000 long, the equivalent of $3 in sats will be taken by the coordinator.*
+
+> ⚠️ Closing a position is an implicit reverse order and therefore **involves new order matching fees.**
+> 
+**You can benefit from fee rebates on this item.**
+
+ ### Rollovers:
+10101 doesn't charge any fee for **Rollovers** (Renewing a contract before it expires).
+This may change in the future, but rest assured that we will communicate any updates on the subject.
+
+ℹ️ *When rolling over a position, **you're replacing your order with a new one, with an expiry date further in the future.***
+
+### Funding rates:
+10101 doesn't apply funding rates at the moment, but this is likely to change in the future. Rest assured that we will communicate any updates on the subject.
+
+### Fee rebates:
+Fee rebates will be applied to the **order matching fee** for one month from activation.
+You can benefit from these discounts:
+- 👨‍💻 As an active user, by referring users to 10101, provided they have opened a **DLC channel** and at least one trade.
+- 🦐 As a new user, you'll receive an immediate 10% discount when you enter a referral code and open your first trading order.
+
+|Tier level                          | Min. users to refer                         |Fee rebate                         |
+|----------------|-------------------------------|-----------------------------|
+|🐟            |3            |20%            |
+|🦈            |5            |35%            |
+|🐋|10|50%            |
+
+ℹ️ ***You can also benefit from it based on various promotional operations.***
+> ⚠️ The nature and structure of fee rebates may vary in the future. Rest assured that we will communicate on the subject.**
