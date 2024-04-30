@@ -90,7 +90,7 @@ This makes sense if two trades want to trade bigger volumes and generally only w
 
 #### Capital Efficiency
 
-Another benefit of using a coordinator is the captial efficiency.
+Another benefit of using a coordinator is the capital efficiency.
 Assume you want to trade with 1 Million sats.
 If you'd want to be able to trade that volume with any of the other 10101 traders (from the example above) you'd have to lock up 6 Million sats in dlc channels, which would leave you with an inefficient use of your capital.
 
