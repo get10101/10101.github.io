@@ -47,7 +47,15 @@ This may change in the future, but rest assured that we will communicate any upd
 
 ### Funding rates:
 
-10101 doesn't apply funding rates at the moment, but this is likely to change in the future. Rest assured that we will communicate any updates on the subject.
+In 10101, funding rates in Bitcoin perpetuals trading are periodic payments to align contract prices with Bitcoin's spot price. Generally, longs pay if the market is bullish 📈, and shorts pay if the market is bearish 📉.
+This mechanism helps maintain price stability in the market.
+
+The funding fee is calculated using the formula:
+
+`funding_fee = funding_rate * (quantity / index_price)`
+
+**Funding rates details can be viewed directly in the Trade tab.**
+
 
 ### Fee rebates:
 
