@@ -33,7 +33,7 @@ However, we've done a lot of reflecting, and we know what we have built is not r
 
 For these reasons, we have made the tough decision to wind down 10101. The platform will remain operational until the end of October. Afterwards we will stop accepting new positions and open positions will expire on November, 3rd 2024 15:00 UTC, after which we will cease our services.
 
-We encourage our users to complete any ongoing positions, close their channels and withdraw their funds into their own wallet.
+We encourage our users to complete any ongoing positions, close their channels and withdraw their funds into their own wallets.
 
 We are happy to provide guidance and support during this transition period to ensure a smooth wind-down process.
 
